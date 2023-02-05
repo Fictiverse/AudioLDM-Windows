@@ -15,6 +15,7 @@ conda activate audioldm
 pip install -r requirements.txt
 python scripts\text2sound.py
 ```
+Gradio is not used because it have ffmpeg issue.
 
 <hr>
 
