@@ -6,6 +6,16 @@
 
 Generate speech, sound effects, music and beyond.
 
+
+## Windows installation
+```shell
+cd C:\Path\Of\AudioLDM
+conda env create --name audioldm --file=environment.yml
+conda activate audioldm
+pip install -r requirements.txt
+python scripts\text2sound.py
+```
+
 <hr>
 
 
