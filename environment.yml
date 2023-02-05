@@ -1,0 +1,12 @@
+name: audioldm
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=20.3
+  - cudatoolkit=11.3
+  - numpy=1.23.1
+  - pip:
+    - audioldm==0.0.6
+    - ffmpeg
+    - -e .
